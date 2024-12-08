@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/svg+xml" href="../assets/images/logo.svg"/>
+
+        <link rel="stylesheet" href="../assets/style.css">
+        
+        <title>Schedule - ICDGT 2024 | International Conference on Differential Geometry and Topology 2024 | Jilin University, China</title>
+
+    </head>
+    <body>
+        <div class="flex flex-col min-h-screen">
+            <header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+                <nav class="bg-white border-b border-gray-200 dark:bg-gray-900">
+                    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                        <a href="../" class="flex items-center space-x-3 rtl:space-x-reverse">
+                            <img src="../assets/images/logo.svg" class="h-10" alt="Logo" />
+                            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">CDGT 2024</span>
+                        </a>
+                        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                            </svg>
+                        </button>
+                        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                                <li>
+                                    <a href="../" class="block py-2 px-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+                                </li>
+                                <li>
+                                    <a href="../schedule/" class="block py-2 px-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Schedule</a>
+                                </li>
+                                <li>
+                                    <a href="../direction/" class="block py-2 px-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Directions</a>
+                                </li>
+                                <li>
+                                    <a href="../information/" class="block py-2 px-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Information</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- Main Section -->
+            <section class="container flex-grow mx-auto px-5 py-10">
+                <div class="container my-8 px-5 py-8 mx-auto">
+                    <div class="flex flex-wrap w-full mb-8 flex-col items-center text-center">
+                        <h1 class="sm:text-4xl text-3xl font-bold title-font mb-2 text-gray-900">
+                            Conference Schedule
+                        </h1>
+                    </div>
+
+                    <!-- Day 1 Accordion -->
+                    <div class="mb-4 border rounded-lg shadow">
+                        <button class="w-full text-left px-4 py-3 bg-sky-500 text-white font-bold rounded-t-lg transition duration-300 hover:bg-sky-600"
+                                onclick="toggleAccordion('day1')">
+                        Friday, 13th December
+                        </button>
+                        <div id="day1" class="accordion-content bg-white p-4 text-gray-700 hidden overflow-hidden transition-all duration-500 ease-in-out max-h-0">
+                            <div class="overflow-x-auto">
+                                <table class="table-auto w-full text-left border-collapse">
+                                    <thead>
+                                        <tr class="bg-pink-100">
+                                            <th class="border p-3 whitespace-nowrap">Time</th>
+                                            <th class="border p-3 whitespace-nowrap">Speaker</th>
+                                            <th class="border p-3">Topic</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">8:30 -- 9:00</td>
+                                            <td colspan="2" class="border p-3 bg-gray-200 font-semibold text-center">Registration and Group Photo</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">9:00 -- 10:00</td>
+                                            <td class="border p-3 font-semibold">Thomas Schick <br><span class="text-sm text-gray-500">University of Göttingen</span></td>
+                                            <td class="border p-3">$K$-theory, the basics</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">10:00 -- 10:25</td>
+                                            <td colspan="2" class="border p-3 bg-blue-100 font-semibold text-center">Coffee Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">16:20 -- 17:05</td>
+                                            <td class="border p-3 font-semibold">Lipin Yuan <br><span class="text-sm text-gray-500">Hebei Normal University</span></td>
+                                            <td class="border p-3">On some properties of convex surfaces</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">11:10 -- 11:15</td>
+                                            <td colspan="2" class="border p-3 bg-yellow-100 font-semibold text-center">Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">11:15 -- 12:00</td>
+                                            <td class="border p-3 font-semibold">Sachchidanand Prasad <br><span class="text-sm text-gray-500">Jilin University</span></td>
+                                            <td class="border p-3">On the cut and focal locus of a Finsler manifold</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">12:00 -- 13:30</td>
+                                            <td colspan="2" class="border p-3 bg-green-100 font-semibold text-center">Lunch Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">13:30 -- 14:15</td>
+                                            <td class="border p-3 font-semibold">Sandip Samanta <br><span class="text-sm text-gray-500">Indian Institute of Science Education and Research Kolkata</span></td>
+                                            <td class="border p-3">Spheres Bundle Over Spheres: Topological and Geometric View</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">14:15 -- 14:20</td>
+                                            <td colspan="2" class="border p-3 bg-yellow-100 font-semibold text-center">Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">14:20 -- 15:05</td>
+                                            <td class="border p-3 font-semibold">Somnath Basu <br><span class="text-sm text-gray-500">Indian Institute of Science Education and Research Kolkata</span></td>
+                                            <td class="border p-3">On manifolds homeomorphic to the $n$-sphere</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">15:05 -- 15:30</td>
+                                            <td colspan="2" class="border p-3 bg-cyan-200 font-semibold text-center">Coffee Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">15:30 -- 16:15</td>
+                                            <td class="border p-3 font-semibold">Miguel Angel Javaloyes <br><span class="text-sm text-gray-500">University of Murcia</span></td>
+                                            <td class="border p-3">Applications of Finsler Geometry to wildfire propagation models. The importance of focal and cut points</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">16:15 -- 16:20</td>
+                                            <td colspan="2" class="border p-3 bg-yellow-100 font-semibold text-center">Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">16:20 -- 17:05</td>
+                                            <td class="border p-3 font-semibold">Lipin Yuan <br><span class="text-sm text-gray-500">Hebei Normal University</span></td>
+                                            <td class="border p-3">On some properties of convex surfaces</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">10:25 -- 11:10</td>
+                                            <td class="border p-3 font-semibold">Wilhelm Klingenberg <br><span class="text-sm text-gray-500">Durham University</span></td>
+                                            <td class="border p-3">Local non-injectivity of the exponential map at critical points in sub-Riemannian geometry</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">17:05 -- 19:15</td>
+                                            <td colspan="2" class="border p-3 bg-green-100 font-semibold text-center">Dinner</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Day 2 Accordion -->
+                    <div class="mb-4 border rounded-lg shadow">
+                        <button class="w-full text-left px-4 py-3 bg-sky-500 text-white font-bold rounded-t-lg transition duration-300 hover:bg-sky-600"
+                                onclick="toggleAccordion('day2')">
+                        Saturday, 14th December
+                        </button>
+                        <div id="day2" class="accordion-content bg-white p-4 text-gray-700 hidden overflow-hidden transition-all duration-500 ease-in-out max-h-0">
+                            <div class="overflow-x-auto">
+                                <table class="table-auto w-full text-left border-collapse">
+                                    <thead>
+                                        <tr class="bg-pink-100">
+                                            <th class="border p-3 whitespace-nowrap">Time</th>
+                                            <th class="border p-3 whitespace-nowrap">Speaker</th>
+                                            <th class="border p-3">Topic</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">9:00 -- 10:00</td>
+                                            <td class="border p-3 font-semibold">Thomas Schick <br><span class="text-sm text-gray-500">University of Göttingen</span></td>
+                                            <td class="border p-3">$K$-theory and geometry</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">10:00 -- 10:10</td>
+                                            <td colspan="2" class="border p-3 bg-yellow-100 font-semibold text-center">Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">10:10 -- 11:10</td>
+                                            <td class="border p-3 font-semibold">Thomas Schick <br><span class="text-sm text-gray-500">University of Göttingen</span></td>
+                                            <td class="border p-3">$K$-theory and higher index theory</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">11:10 -- 11:35</td>
+                                            <td colspan="2" class="border p-3 bg-cyan-200 font-semibold text-center">Coffee Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">11:35 -- 12:20</td>
+                                            <td class="border p-3 font-semibold">Shicheng Xu <br><span class="text-sm text-gray-500">Capital Normal University</span></td>
+                                            <td class="border p-3">Rigidity for Einstein manifolds under bounded covering geometry</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">12:20 -- 13:50</td>
+                                            <td colspan="2" class="border p-3 bg-green-100 font-semibold text-center">Lunch Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">13:50 -- 14:35</td>
+                                            <td class="border p-3 font-semibold">Jin-ichi Itoh <br><span class="text-sm text-gray-500">Sugiyama Jogakuen University</span></td>
+                                            <td class="border p-3">Cut loci for non-convex polyhedra</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">14:35 -- 14:40</td>
+                                            <td colspan="2" class="border p-3 bg-yellow-100 font-semibold text-center">Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">14:40 -- 15:25</td>
+                                            <td class="border p-3 font-semibold">Byeorhi Kim <br><span class="text-sm text-gray-500">Pohang University of Science and Technology</span></td>
+                                            <td class="border p-3">On a classification of topological surfaces</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">15:25 -- 15:50</td>
+                                            <td colspan="2" class="border p-3 bg-cyan-200 font-semibold text-center">Coffee Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">15:50 -- 16:35</td>
+                                            <td class="border p-3 font-semibold">Tumpa Mahato <br><span class="text-sm text-gray-500">Indian Institute of Science Education and Research Pune</span></td>
+                                            <td class="border p-3">Parameterization of knotted surfaces arising from classical and welded knots</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">16:35 -- 16:40</td>
+                                            <td colspan="2" class="border p-3 bg-yellow-100 font-semibold text-center">Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">16:40 -- 17:25</td>
+                                            <td class="border p-3 font-semibold">Rama Mishra <br><span class="text-sm text-gray-500">Indian Institute of Science Education and Research Pune</span></td>
+                                            <td class="border p-3">Geometry of knots in $\mathbb{RP}^3$</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">17:25 -- 19:25</td>
+                                            <td colspan="2" class="border p-3 bg-green-100 font-semibold text-center">Dinner</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Day 3 Accordion -->
+                    <div class="mb-4 border rounded-lg shadow">
+                        <button class="w-full text-left px-4 py-3 bg-sky-500 text-white font-bold rounded-t-lg transition duration-300 hover:bg-sky-600"
+                                onclick="toggleAccordion('day3')">
+                        Sunday, 15th December
+                        </button>
+                        <div id="day3" class="accordion-content bg-white p-4 text-gray-700 hidden overflow-hidden transition-all duration-500 ease-in-out max-h-0">
+                            <div class="overflow-x-auto">
+                                <table class="table-auto w-full text-left border-collapse">
+                                    <thead>
+                                        <tr class="bg-pink-100">
+                                            <th class="border p-3 whitespace-nowrap">Time</th>
+                                            <th class="border p-3 whitespace-nowrap">Speaker</th>
+                                            <th class="border p-3">Topic</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">9:00 -- 10:00</td>
+                                            <td class="border p-3 font-semibold">Thomas Schick <br><span class="text-sm text-gray-500">University of Göttingen</span></td>
+                                            <td class="border p-3">$K$-theory and topological $T$-duality</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">10:00 -- 10:15</td>
+                                            <td colspan="2" class="border p-3 bg-cyan-200 font-semibold text-center">Coffee Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">10:15 -- 11:00</td>
+                                            <td class="border p-3 font-semibold">Aritra Bhowmick <br><span class="text-sm text-gray-500">Indian Institute of Science <br><a href="https://us06web.zoom.us/j/7803613594?pwd=Uok9Sm7PbHd3aGSciTmVxcvmoTOpPP.1&omn=85306831865" class="text-blue-500" target="_blank">Online (Zoom Link)</a></span></td>
+                                            <td class="border p-3">Fibration with a Section and H-Splitting of the Looped Total Space</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">11:00 -- 11:05</td>
+                                            <td colspan="2" class="border p-3 bg-yellow-100 font-semibold text-center">Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">11:05 -- 11:50</td>
+                                            <td class="border p-3 font-semibold">Sai Rasmi Ranjan <br><span class="text-sm text-gray-500">Shiv Nadar University <br><a href="https://us06web.zoom.us/j/7803613594?pwd=Uok9Sm7PbHd3aGSciTmVxcvmoTOpPP.1&omn=85306831865" class="text-blue-500" target="_blank">Online (Zoom Link)</a></span></td>
+                                            <td class="border p-3">Higher genus Maxfaces with arbitrarily many catenoid or planar ends</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">11:50 -- 12:00</td>
+                                            <td colspan="2" class="border p-3 bg-yellow-100 font-semibold text-center">Break</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">12:00 -- 12:45</td>
+                                            <td class="border p-3 font-semibold">Pradip Kumar <br><span class="text-sm text-gray-500">Shiv Nadar University <br><a href="https://us06web.zoom.us/j/7803613594?pwd=Uok9Sm7PbHd3aGSciTmVxcvmoTOpPP.1&omn=85306831865" class="text-blue-500" target="_blank">Online (Zoom Link)</a></span></td>
+                                            <td class="border p-3">Constructing Zero Mean Curvature Surfaces in Euclidean Space and in the Lorentz-Minkowski Space</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">12:45 -- 14:15</td>
+                                            <td colspan="2" class="border p-3 bg-green-100 font-semibold text-center">Lunch</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border p-3 whitespace-nowrap">14:30 -- 17:30</td>
+                                            <td colspan="2" class="border p-3 bg-yellow-100 font-semibold text-center">Free Discussion</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Footer -->
+            <footer class="bg-gray-800 text-gray-200 body-font">
+                <div class="container px-5 py-8 mx-auto flex flex-wrap justify-center">
+                    <p class="text-sm text-center">© 2024 ICDGT Conference | All Rights Reserved</p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Flowbite JS -->
+        <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+
+        <script>
+            MathJax = {
+                tex: {
+                    inlineMath: [['$', '$']],
+                    displayMath: [['$$', '$$']],
+                    packages: {'[-]': ['ams']}
+                }
+            };
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script>
+            function toggleAccordion(id) {
+                const content = document.getElementById(id);
+                
+                // Toggle visibility and apply transition
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                    content.classList.add('hidden');
+                } else {
+                    content.classList.remove('hidden');
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            }
+        </script>
+    </body>
+</html>
