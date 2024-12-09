@@ -19,7 +19,7 @@
                     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                         <a href="../" class="flex items-center space-x-3 rtl:space-x-reverse">
                             <img src="../assets/images/logo.svg" class="h-10" alt="Logo" />
-                            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">CDGT 2024</span>
+                            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ICDGT 2024</span>
                         </a>
                         <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                             <span class="sr-only">Open main menu</span>
@@ -32,12 +32,19 @@
                                 <li>
                                     <a href="../" class="block py-2 px-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
                                 </li>
+
                                 <li>
                                     <a href="../schedule/" class="block py-2 px-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Schedule</a>
                                 </li>
+
+                                <li>
+                                    <a href="../assets/ICDGT-2024-abstract-booklet.pdf" target="_blank" class="block py-2 px-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Booklet</a>
+                                </li>
+
                                 <li>
                                     <a href="../direction/" class="block py-2 px-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Directions</a>
                                 </li>
+
                                 <li>
                                     <a href="../information/" class="block py-2 px-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Information</a>
                                 </li>
@@ -49,7 +56,9 @@
 
             <!-- Main Section -->
             <section class="container flex-grow mx-auto px-5 py-10">
+                
                 <div class="container my-8 px-5 py-8 mx-auto">
+                    
                     <div class="flex flex-wrap w-full mb-8 flex-col items-center text-center">
                         <h1 class="sm:text-4xl text-3xl font-bold title-font mb-2 text-gray-900">
                             Conference Schedule
@@ -80,16 +89,25 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">9:00 -- 10:00</td>
                                             <td class="border p-3 font-semibold">Thomas Schick <br><span class="text-sm text-gray-500">University of Göttingen</span></td>
-                                            <td class="border p-3">$K$-theory, the basics</td>
+                                            <td class="border p-3">
+                                                $K$-theory, the basics
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(1)">View Abstract</button>
+                                            </td>
+                                            
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">10:00 -- 10:25</td>
                                             <td colspan="2" class="border p-3 bg-blue-100 font-semibold text-center">Coffee Break</td>
                                         </tr>
                                         <tr>
-                                            <td class="border p-3 whitespace-nowrap">16:20 -- 17:05</td>
+                                            <td class="border p-3 whitespace-nowrap">10:25 -- 11:10</td>
                                             <td class="border p-3 font-semibold">Lipin Yuan <br><span class="text-sm text-gray-500">Hebei Normal University</span></td>
-                                            <td class="border p-3">On some properties of convex surfaces</td>
+                                            <td class="border p-3">
+                                                On some properties of convex surfaces
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(2)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">11:10 -- 11:15</td>
@@ -98,7 +116,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">11:15 -- 12:00</td>
                                             <td class="border p-3 font-semibold">Sachchidanand Prasad <br><span class="text-sm text-gray-500">Jilin University</span></td>
-                                            <td class="border p-3">On the cut and focal locus of a Finsler manifold</td>
+                                            <td class="border p-3">
+                                                On the cut and focal locus of a Finsler manifold
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(3)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">12:00 -- 13:30</td>
@@ -107,7 +129,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">13:30 -- 14:15</td>
                                             <td class="border p-3 font-semibold">Sandip Samanta <br><span class="text-sm text-gray-500">Indian Institute of Science Education and Research Kolkata</span></td>
-                                            <td class="border p-3">Spheres Bundle Over Spheres: Topological and Geometric View</td>
+                                            <td class="border p-3">
+                                                Spheres Bundle Over Spheres: Topological and Geometric View
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(4)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">14:15 -- 14:20</td>
@@ -116,7 +142,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">14:20 -- 15:05</td>
                                             <td class="border p-3 font-semibold">Somnath Basu <br><span class="text-sm text-gray-500">Indian Institute of Science Education and Research Kolkata</span></td>
-                                            <td class="border p-3">On manifolds homeomorphic to the $n$-sphere</td>
+                                            <td class="border p-3">
+                                                On manifolds homeomorphic to the $n$-sphere
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(5)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">15:05 -- 15:30</td>
@@ -125,7 +155,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">15:30 -- 16:15</td>
                                             <td class="border p-3 font-semibold">Miguel Angel Javaloyes <br><span class="text-sm text-gray-500">University of Murcia</span></td>
-                                            <td class="border p-3">Applications of Finsler Geometry to wildfire propagation models. The importance of focal and cut points</td>
+                                            <td class="border p-3">
+                                                Applications of Finsler Geometry to wildfire propagation models. The importance of focal and cut points
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(6)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">16:15 -- 16:20</td>
@@ -133,13 +167,12 @@
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">16:20 -- 17:05</td>
-                                            <td class="border p-3 font-semibold">Lipin Yuan <br><span class="text-sm text-gray-500">Hebei Normal University</span></td>
-                                            <td class="border p-3">On some properties of convex surfaces</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="border p-3 whitespace-nowrap">10:25 -- 11:10</td>
                                             <td class="border p-3 font-semibold">Wilhelm Klingenberg <br><span class="text-sm text-gray-500">Durham University</span></td>
-                                            <td class="border p-3">Local non-injectivity of the exponential map at critical points in sub-Riemannian geometry</td>
+                                            <td class="border p-3">
+                                                Local non-injectivity of the exponential map at critical points in sub-Riemannian geometry
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(7)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">17:05 -- 19:15</td>
@@ -171,7 +204,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">9:00 -- 10:00</td>
                                             <td class="border p-3 font-semibold">Thomas Schick <br><span class="text-sm text-gray-500">University of Göttingen</span></td>
-                                            <td class="border p-3">$K$-theory and geometry</td>
+                                            <td class="border p-3">
+                                                $K$-theory and geometry
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(8)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">10:00 -- 10:10</td>
@@ -180,7 +217,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">10:10 -- 11:10</td>
                                             <td class="border p-3 font-semibold">Thomas Schick <br><span class="text-sm text-gray-500">University of Göttingen</span></td>
-                                            <td class="border p-3">$K$-theory and higher index theory</td>
+                                            <td class="border p-3">
+                                                $K$-theory and higher index theory
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(9)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">11:10 -- 11:35</td>
@@ -189,7 +230,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">11:35 -- 12:20</td>
                                             <td class="border p-3 font-semibold">Shicheng Xu <br><span class="text-sm text-gray-500">Capital Normal University</span></td>
-                                            <td class="border p-3">Rigidity for Einstein manifolds under bounded covering geometry</td>
+                                            <td class="border p-3">
+                                                Rigidity for Einstein manifolds under bounded covering geometry
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(10)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">12:20 -- 13:50</td>
@@ -198,7 +243,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">13:50 -- 14:35</td>
                                             <td class="border p-3 font-semibold">Jin-ichi Itoh <br><span class="text-sm text-gray-500">Sugiyama Jogakuen University</span></td>
-                                            <td class="border p-3">Cut loci for non-convex polyhedra</td>
+                                            <td class="border p-3">
+                                                Cut loci for non-convex polyhedra
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(11)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">14:35 -- 14:40</td>
@@ -207,7 +256,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">14:40 -- 15:25</td>
                                             <td class="border p-3 font-semibold">Byeorhi Kim <br><span class="text-sm text-gray-500">Pohang University of Science and Technology</span></td>
-                                            <td class="border p-3">On a classification of topological surfaces</td>
+                                            <td class="border p-3">
+                                                On a classification of topological surfaces
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(12)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">15:25 -- 15:50</td>
@@ -216,7 +269,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">15:50 -- 16:35</td>
                                             <td class="border p-3 font-semibold">Tumpa Mahato <br><span class="text-sm text-gray-500">Indian Institute of Science Education and Research Pune</span></td>
-                                            <td class="border p-3">Parameterization of knotted surfaces arising from classical and welded knots</td>
+                                            <td class="border p-3">
+                                                Parameterization of knotted surfaces arising from classical and welded knots
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(13)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">16:35 -- 16:40</td>
@@ -225,7 +282,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">16:40 -- 17:25</td>
                                             <td class="border p-3 font-semibold">Rama Mishra <br><span class="text-sm text-gray-500">Indian Institute of Science Education and Research Pune</span></td>
-                                            <td class="border p-3">Geometry of knots in $\mathbb{RP}^3$</td>
+                                            <td class="border p-3">
+                                                Geometry of knots in $\mathbb{RP}^3$
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(14)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">17:25 -- 19:25</td>
@@ -257,7 +318,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">9:00 -- 10:00</td>
                                             <td class="border p-3 font-semibold">Thomas Schick <br><span class="text-sm text-gray-500">University of Göttingen</span></td>
-                                            <td class="border p-3">$K$-theory and topological $T$-duality</td>
+                                            <td class="border p-3">
+                                                $K$-theory and topological $T$-duality
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(15)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">10:00 -- 10:15</td>
@@ -266,7 +331,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">10:15 -- 11:00</td>
                                             <td class="border p-3 font-semibold">Aritra Bhowmick <br><span class="text-sm text-gray-500">Indian Institute of Science <br><a href="https://us06web.zoom.us/j/7803613594?pwd=Uok9Sm7PbHd3aGSciTmVxcvmoTOpPP.1&omn=85306831865" class="text-blue-500" target="_blank">Online (Zoom Link)</a></span></td>
-                                            <td class="border p-3">Fibration with a Section and H-Splitting of the Looped Total Space</td>
+                                            <td class="border p-3">
+                                                Fibration with a Section and H-Splitting of the Looped Total Space
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(16)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">11:00 -- 11:05</td>
@@ -275,7 +344,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">11:05 -- 11:50</td>
                                             <td class="border p-3 font-semibold">Sai Rasmi Ranjan <br><span class="text-sm text-gray-500">Shiv Nadar University <br><a href="https://us06web.zoom.us/j/7803613594?pwd=Uok9Sm7PbHd3aGSciTmVxcvmoTOpPP.1&omn=85306831865" class="text-blue-500" target="_blank">Online (Zoom Link)</a></span></td>
-                                            <td class="border p-3">Higher genus Maxfaces with arbitrarily many catenoid or planar ends</td>
+                                            <td class="border p-3">
+                                                Higher genus Maxfaces with arbitrarily many catenoid or planar ends
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(17)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">11:50 -- 12:00</td>
@@ -284,7 +357,11 @@
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">12:00 -- 12:45</td>
                                             <td class="border p-3 font-semibold">Pradip Kumar <br><span class="text-sm text-gray-500">Shiv Nadar University <br><a href="https://us06web.zoom.us/j/7803613594?pwd=Uok9Sm7PbHd3aGSciTmVxcvmoTOpPP.1&omn=85306831865" class="text-blue-500" target="_blank">Online (Zoom Link)</a></span></td>
-                                            <td class="border p-3">Constructing Zero Mean Curvature Surfaces in Euclidean Space and in the Lorentz-Minkowski Space</td>
+                                            <td class="border p-3">
+                                                Constructing Zero Mean Curvature Surfaces in Euclidean Space and in the Lorentz-Minkowski Space
+                                                <!-- Abstract Button -->
+                                                <button class="abstract-btn mt-2 px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400" onclick="openPopup(18)">View Abstract</button>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="border p-3 whitespace-nowrap">12:45 -- 14:15</td>
@@ -297,6 +374,188 @@
                                     </tbody>
                                 </table>
                             </div>
+                        </div>
+                    </div>
+
+                    <!-- Abstracts Section (hidden from the schedule) -->
+                    <div id="abstracts-container" class="hidden">
+                        <!-- Day 1 Abstracts -->
+                        <section id="abstract1" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                We introduce the $K$-theory groups of a $C*$-algebra and explain its basic
+                                properties. In a nutshell, the group $K_0(A)$ classifies $A$-modules (finitely
+                                generated projective) and $K_1(A)$ classifies automorphisms of the trivial
+                                modules. These come up in numerous situations, and at the same time provide
+                                information about the structure of the algebra $A$. We give a glimpse at
+                                computation tools and at first applications.
+                            </p>
+                            <h4 class="text-lg font-bold mt-4">Plan:</h4>
+                            <ul class="list-disc pl-8 text-lg text-gray-700">
+                                <li>Long exact sequence of an extension</li>
+                                <li>Matrix and compact operator stability</li>
+                                <li>Product structure</li>
+                                <li>Bott periodicity</li>
+                                <li>Sample calculations (Calkin index sequence)</li>
+                                <li>A glimpse at the Elliot classification program</li>
+                            </ul>
+                        </section>
+                    
+                        <section id="abstract2" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                A convex body $K$ in $\mathbb{R} ^d$ is a compact convex set with interior points. A convex surface in $\mathbb{R} ^3$ is the boundary of a convex body in $\mathbb{R} ^3$. In this talk we will investigate some properties of convex surfaces in $\mathbb{R} ^3$.
+                            </p>
+                        </section>
+                    
+                        <section id="abstract3" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                In this talk, we explore key aspects of Finsler geometry with a focus on the structure of the cut and focal loci. We begin by revisiting fundamental concepts in Finsler geometry before defining the cut locus and illustrating examples in Riemannian manifolds. The discussion culminates with a proof of a special case of the generalized Klingenberg lemma for Finsler manifolds, specifically for $N$-geodesic loops, where $N$ is a closed submanifold of a Finsler manifold $M$. This is a joint work with Aritra Bhowmick.
+                            </p>
+                        </section>
+                    
+                        <section id="abstract4" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                I will introduce the brace product for a fibration admitting a section and then specialize to spheres bundle over spheres. Then we classify these bundles using brace product up to rational homotopy equivalence. Also we will discuss a geometric view through Morse function in some special case of spheres bundle over spheres.
+                            </p>
+                        </section>
+                    
+                        <section id="abstract5" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                We shall discuss Reeb's Theorem and basic differential topology of Morse functions. This was used by Milnor to prove the existence of exotic spheres in $7$ dimensions. We shall propose a generalization of Reeb's Theorem and discuss a proof of it. This is joint work with Sachchidanand Prasad.
+                            </p>
+                        </section>
+                    
+                        <section id="abstract6" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                We will first show how Finsler metrics appear as a tool to solve the time-independent Zermelo problem, or more generally, the problem of finding the shortest trajectory in time when the velocity is prescribed at any direction, namely, the velocity is a function of the direction. These findings can be applied to wildfire propagation models as the velocity of the fire in every direction is prescribed, namely, it depends on the wind, the slope, the vegetation, humidity. Indeed, the new firefront is obtained by computing the orthogonal geodesics to the initial firefront, and focal and cut points will indicate places where fire comes from various directions, with an increasing danger for firefighters. When the velocity depends also on time, we will see that Zermelo problem can be solved by considering Finsler spacetimes. It turns out that the shortest trajectories are the projections to $M$ of lightlike geodesics in the non-relativistic spacetime ${\mathds R}\times M$, where the first coordinate is the absolute time. So the propagation of the fire can be obtained computing the orthogonal lightlike geodesics to the firefront.
+                            </p>
+                        </section>
+                    
+                        <section id="abstract7" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                In joint work with Samuel Borza, we give a version of the Theorem of Morse and Littauer.
+                            </p>
+                        </section>
+                    
+                        <!-- Day 2 Abstracts -->
+                        <section id="abstract8" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                We look at the classical topological $K$-theory of spaces introduced by Atiyah. These involve vector bundles (and their automorphisms). We discuss how this relates to operator $K$-theory. As a famous application, we study how topological K-theory enters the study of the index of an elliptic differential operator and formulate the ground-breaking Atiyah-Singer index theorem.
+                            </p>
+                            <h4 class="text-lg font-bold mt-4">Plan:</h4>
+                            <ul class="list-disc pl-8 text-lg text-gray-700">
+                                <li>Vector bundle $K$-theory</li>
+                                <li>Serre-Swan theorem</li>
+                                <li>Elliptic differential operators and their topological and analytical index</li>
+                            </ul>
+                        </section>
+                    
+                        <section id="abstract9" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                We venture further into index theory, where we now bring in interesting (non-commutative) $C*$-algebras, in particular $C*$-algebras associated to the fundamental group. We show how this can be used to give deep information about the non-existence of Riemannian metrics of positive scalar curvature.
+                            </p>
+                            <h4 class="text-lg font-bold mt-4">Plan:</h4>
+                            <ul class="list-disc pl-8 text-lg text-gray-700">
+                                <li>Group $C*$-algebras and Baum-Connes conjecture</li>
+                                <li>Rosenberg obstruction to positive scalar curvature</li>
+                                <li>Gromov-Lawson-Rosenberg conjecture</li>
+                            </ul>
+                        </section>
+                    
+                        <section id="abstract10" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                We prove three rigidity results for Einstein manifolds with bounded covering geometry. (1) any almost flat manifold $(M,g)$ must be flat if it is Einstein, i.e. $\text{Ric} = Lg$ for some real number $L$. (2) A compact Einstein manifold with a non-vanishing and almost maximal volume entropy is hyperbolic. (3) A compact Einstein manifold admitting a uniform local rewinding almost maximal volume is isometric to a space form. This is a joint work with Cuifang Si.
+                            </p>
+                        </section>
+                    
+                        <section id="abstract11" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                I will give a definition of cut locus of a 2-dimensional polyhedra which is not necessarily convex and its fundamental properties. The cut locus is a strong deformation retract punctured polyhedron and gives a handle decomposition of the polyhedron. This is a joint work with T. Yoshiyasu.
+                            </p>
+                        </section>
+                    
+                        <section id="abstract12" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                In 2019, D. Gabai introduced the Light Bulb Theorem, offering a partial solution to the classification of embeddings of 2-spheres in 4-manifolds. Since then, the theorem has been adapted and extended to yield results for other 2-manifolds. In this talk, we explore the classification of surfaces in 4-manifolds, building on the recent developments that have emerged as a continuation of Gabai's work.
+                            </p>
+                        </section>
+                    
+                        <section id="abstract13" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                The main objects of the talk are knotted surfaces in four-dimensional space. Although we study knotted surfaces using diagrams and braids, visualizing is also very important to understand these abstract mathematical objects. Therefore, parameterizing these embeddings of 2-manifolds using elementary functions becomes crucial not only for computing invariants but also to provide a machinery to visualize and interact with these objects. In this talk, we will provide a concrete parameterization of a few classes of knotted surfaces. Moreover, we will briefly discuss the non-triviality of a specific class of surface knots called ribbon torus knots by using its connection with welded knots by S. Satoh's <em>Tube map</em>.
+                            </p>
+                        </section>
+                    
+                        <section id="abstract14" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                We discuss many geometric and intrinsic properties of knots and links inside real projective 3-space.
+                            </p>
+                        </section>
+
+                        <!-- Day 3 Abstracts -->
+                        <section id="abstract15" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                In the last lecture, we discuss another application of $K$-theory, this time
+                                inspired by mathematical physics: $T$-dual space-times have isomorphic twisted
+                                K-theory. We briefly introduce the physics idea of $T$-duality and the concept
+                                of twisted $K$-theory. At the end, we have a glimpse at equivariant $K$-theory
+                                and an equivariant improvement of $T$-duality.
+                            </p>
+                            <h4 class="text-lg font-bold mt-4">Plan:</h4>
+                            <ul class="list-disc pl-8 text-lg text-gray-700">
+                                <li>$T$-dual space-times</li>
+                                <li>Twisted $K$-theory</li>
+                                <li>The $T$-duality transform</li>
+                                <li>Equivariant $K$-theory</li>
+                                <li>Equivariant $T$-duality</li>
+                            </ul>
+                        </section>
+                    
+                        <section id="abstract16" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                A principal $G$-bundle admitting a section is always trivial. However, this does not hold for a general fibration with a section. To any such fibration, I. M. James introduced a certain product involving the homotopy groups of the fiber and the base space, known as the James brace product. In the first part of this talk, we shall see when the vanishing of the James brace product implies that the fibration is indeed trivial. <br> <br>
+
+                                The space of based loops in a given space is a prototypical example of an H-space. Any fibration with a section becomes trivial when it is looped once. This means that the loop space of the total space is homotopy equivalent to the product of the loop spaces of the base and the fiber. A natural question arises: when is this an equivalence of H-spaces, i.e., an H-splitting? In the second part of this talk, we shall introduce a generalization of the James brace product, and identify the vanishing of this generalized brace product as the obstruction for the H-splitting of a fibration with section after looping. We shall provide an example where the generalized brace products do not vanish, even though the James brace products vanish identically. <br> <br>
+                                
+                                This is a joint work with S. Basu and S. Samanta.
+                            </p>
+                        </section>
+                    
+                        <section id="abstract17" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                Maximal surfaces in 3-dimensional Lorentz-Minkowski space arise as solutions to the variational problem of local area maximizing among the spacelike surfaces. These surfaces are zero mean curvature surfaces, and maximal surfaces with singularities are called generalized maximal surfaces. Maxfaces are a special class of these generalized maximal surfaces where singularities appear at points where the tangent plane contains a light-like vector.  I will present the construction of a new family of maxfaces of high genus that are embedded outside a compact set and have arbitrarily many catenoid or planar ends.  The surfaces look like spacelike planes connected by small necks. Among the examples are maxfaces of the Costa-Hoffman-Meeks type. More specifically, the singular set form curves around the waists of the necks. In generic and some symmetric cases, all but finitely many singularities are cuspidal edges, and the non-cuspidal singularities are swallowtails evenly distributed along the singular curves. This work is conducted in collaboration with Dr. Hao Chen, Ms. Anu Dhochak, and Dr. Pradip Kumar, and is accessible at <a href="https://arxiv.org/pdf/2402.11965" class="text-blue-400 hover:text-blue-800" target="_blank">here</a>.
+                            </p>
+                        </section>
+                    
+                        <section id="abstract18" class="abstract-content">
+                            <h3 class="text-xl font-semibold mb-4">Abstract:</h3>
+                            <p class="text-lg text-gray-700">
+                                Similar to minimal surfaces in $\mathbb{R} ^3$, maximal surfaces are zero-mean curvature immersions in Lorentz-Minkowski space. These surfaces arise as solutions to the variational problem of locally maximizing the area among spacelike surfaces. In this talk, we will define minimal surfaces in Euclidean space and maximal surfaces in Lorentz-Minkowski space. We will demonstrate how calculus on Teichmuller space aids us in constructing these maximal and minimal surfaces. In particular, we will show the construction of new higher-genus maximal surfaces with Enneper end. To address the period problem, we will apply Wolf and Weber's method. This is a joint work with Rivu Bardhan and Indranil Biswas.
+                            </p>
+                        </section>
+                    </div>                    
+
+                    <!-- Popup Section -->
+                    <div id="popup1" class="popup fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+                        <div class="bg-white p-6 rounded-lg w-3/4 max-w-2xl shadow-lg relative">
+                            <button class="absolute top-2 right-2 text-red-500 text-2xl" onclick="closePopup()">&times;</button>
+                            <div id="popup-text"></div>
                         </div>
                     </div>
 
@@ -320,11 +579,14 @@
                 tex: {
                     inlineMath: [['$', '$']],
                     displayMath: [['$$', '$$']],
-                    packages: {'[-]': ['ams']}
+                    packages: {'[-]': ['ams']},
+                    extensions: ["amsfonts.js"]
                 }
             };
         </script>
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
         <script>
             function toggleAccordion(id) {
                 const content = document.getElementById(id);
@@ -339,5 +601,33 @@
                 }
             }
         </script>
+
+        <script>
+            // Function to toggle accordion
+            function toggleAccordion(dayId) {
+                const content = document.getElementById(dayId);
+                const isHidden = content.classList.contains("hidden");
+                document.querySelectorAll(".accordion-content").forEach(el => el.classList.add("hidden", "max-h-0"));
+                if (isHidden) content.classList.remove("hidden", "max-h-0");
+            }
+
+            // Function to open the pop-up
+            function openPopup(abstractId) {
+                const abstractContent = document.getElementById('abstract' + abstractId).innerHTML;
+                document.getElementById('popup-text').innerHTML = abstractContent;
+                document.getElementById('popup1').classList.remove('hidden');
+            }
+
+            // Function to close the pop-up
+            function closePopup() {
+                document.getElementById('popup1').classList.add('hidden');
+            }
+
+            // Close the popup with "ESC" key
+            document.addEventListener("keydown", function (event) {
+                if (event.key === "Escape") closePopup();
+            });
+        </script>
+
     </body>
 </html>
